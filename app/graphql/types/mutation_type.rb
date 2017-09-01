@@ -1,5 +1,5 @@
 Types::MutationType = GraphQL::ObjectType.define do
-  name "Mutation"
+  name 'Mutation'
 
   # TODO: Add Mutations as fields
 end
