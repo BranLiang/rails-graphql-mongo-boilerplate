@@ -1,24 +1,18 @@
-# README
+# Rails Mongoid Graphql
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
+Base template for Ruby on Rails projects. Built to minimize the time spent writing boilerplate code and performing repetitive setup tasks. Target for users who love using Graphql and Mongodb.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## TODOs
+- [ ] Robocop Style Check
+- [ ] Authorization
+- [ ] Authentication
+- [ ] Test suits / Templates
+- [ ] Custom Graphql Generator
+- [x] Setup mongoid
+- [x] Initialize Graphql
+- [ ] Query samples
+- [ ] Mutation samples
+- [ ] Subscription samples
+- [ ] I18n integration
+- [ ] Gzip
