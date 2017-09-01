@@ -25,6 +25,10 @@ PreCommit:
     enabled: true
   RailsBestPractices:
     enabled: true
+
+PrePush:
+  Brakeman:
+    enabled: true
 #
 #  TrailingWhitespace:
 #    enabled: true

@@ -52,6 +52,7 @@ group :development do
   gem 'rails_best_practices'
   gem 'reek'
   gem 'rubocop', require: false
+  gem 'brakeman', require: false
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
