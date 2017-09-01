@@ -29,6 +29,8 @@ PreCommit:
 PrePush:
   Brakeman:
     enabled: true
+  RSpec:
+    enabled: true
 #
 #  TrailingWhitespace:
 #    enabled: true

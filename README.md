@@ -5,8 +5,8 @@ Base template for Ruby on Rails projects. Built to minimize the time spent writi
 
 ## TODOs
 - [x] Auto Robocop Style Check
-- [ ] Auto Code Smell check
-- [ ] Faster Ruby with fasterer
+- [x] Auto Code Smell check
+- [x] Faster Ruby with fasterer
 - [ ] Authorization
 - [ ] Authentication
 - [ ] Test suits / Templates
