@@ -16,9 +16,15 @@
 # Uncomment the following lines to make the configuration take effect.
 
 PreCommit:
- RuboCop:
-   enabled: true
-   on_warn: fail # Treat all warnings as failures
+  RuboCop:
+    enabled: true
+    on_warn: fail # Treat all warnings as failures
+  Reek:
+    enabled: true
+  Fasterer:
+    enabled: true
+  RailsBestPractices:
+    enabled: true
 #
 #  TrailingWhitespace:
 #    enabled: true
