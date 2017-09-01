@@ -4,7 +4,9 @@
 Base template for Ruby on Rails projects. Built to minimize the time spent writing boilerplate code and performing repetitive setup tasks. Target for users who love using Graphql and Mongodb.
 
 ## TODOs
-- [ ] Robocop Style Check
+- [x] Auto Robocop Style Check
+- [x] Auto Code Smell check
+- [x] Faster Ruby with fasterer
 - [ ] Authorization
 - [ ] Authentication
 - [ ] Test suits / Templates
@@ -16,3 +18,4 @@ Base template for Ruby on Rails projects. Built to minimize the time spent writi
 - [ ] Subscription samples
 - [ ] I18n integration
 - [ ] Gzip
+- [ ] Server side rendering

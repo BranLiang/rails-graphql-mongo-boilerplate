@@ -1,0 +1,19 @@
+AllCops:
+  Exclude:
+    - 'spec/**/*'
+  TargetRubyVersion: 2.3.1
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
