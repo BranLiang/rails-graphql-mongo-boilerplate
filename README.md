@@ -16,3 +16,4 @@ Base template for Ruby on Rails projects. Built to minimize the time spent writi
 - [ ] Subscription samples
 - [ ] I18n integration
 - [ ] Gzip
+- [ ] Server side rendering
