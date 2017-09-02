@@ -19,3 +19,5 @@ Base template for Ruby on Rails projects. Built to minimize the time spent writi
 - [ ] I18n integration
 - [ ] Gzip
 - [ ] Server side rendering
+- [ ] React Integration
+- [ ] Admin Panel Integration
