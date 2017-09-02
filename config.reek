@@ -1,2 +1,20 @@
 UnusedPrivateMethod:
   enabled: true
+
+IrresponsibleModule:
+  enabled: false
+
+NilCheck:
+  enabled: false
+
+TooManyStatements:
+  enabled: false
+
+InstanceVariableAssumption:
+  enabled: false
+
+UnusedPrivateMethod:
+  enabled: false
+
+Attribute:
+  enabled: false

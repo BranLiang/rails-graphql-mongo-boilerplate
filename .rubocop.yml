@@ -7,7 +7,10 @@ Documentation:
   Enabled: false
 
 Metrics/LineLength:
-  Max: 120
+  Max: 140
+
+Metrics/MethodLength:
+  Max: 20
 
 FrozenStringLiteralComment:
   Enabled: false
