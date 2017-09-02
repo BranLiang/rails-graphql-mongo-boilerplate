@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Profile, type: :request do
+RSpec.describe Api::AuthenticationController, type: :request do
   include ApiHelper
   let!(:current_user) { create(:user) }
 
