@@ -15,3 +15,6 @@ InstanceVariableAssumption:
 
 UnusedPrivateMethod:
   enabled: false
+
+Attribute:
+  enabled: false

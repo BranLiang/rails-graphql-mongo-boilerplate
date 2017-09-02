@@ -31,6 +31,7 @@ var myJWT = payload + "." + signature;
 - [x] Faster Ruby with fasterer
 - [ ] Authorization
 - [x] JWT Authentication
+- [ ] Oauth Authentication
 - [ ] Test suits / Templates
 - [ ] Custom Graphql Generator
 - [x] Setup mongoid
