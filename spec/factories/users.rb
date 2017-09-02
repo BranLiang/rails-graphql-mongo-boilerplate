@@ -1,9 +1,9 @@
 FactoryGirl.define do
   factory :user do
     login "login"
-    password "123456"
-    password_confirmation "123456"
-    name "bran"
-    profile
+    password "12345678"
+    password_confirmation "12345678"
+    name "姓名"
+    profile { FactoryGirl.build(:profile) }
   end
 end

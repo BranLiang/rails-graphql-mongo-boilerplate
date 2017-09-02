@@ -4,7 +4,6 @@ class User
   include BCrypt
 
   attr_accessor :password, :password_confirmation
-  attr_protected :password_hash
 
   embeds_one :profile, autobuild: true
 

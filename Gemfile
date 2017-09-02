@@ -39,10 +39,14 @@ gem 'simple_command'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'factory_girl_rails'
   gem 'pry-byebug'
   gem 'pry-rails'
+end
+
+group :test do
+  gem 'factory_girl_rails'
   gem 'rspec-rails', '~> 3.6'
+  gem 'database_cleaner'
 end
 
 group :development do
