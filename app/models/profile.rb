@@ -3,6 +3,6 @@ class Profile
 
   embedded_in :user
 
-  field :gender, type: String, default: 'male'
-  validates :gender, inclusion: { in: %w[male female] }
+  field :gender, type: Integer, default: 0
+  validates_inclusion_of :gender, in: [0, 1]
 end
