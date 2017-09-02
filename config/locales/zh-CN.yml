@@ -1,2 +1,5 @@
 zh-CN:
-  hello: "你好"
+  invalid_credentials: '用户名或者密码错误'
+  invalid_token: '无效的认证密钥'
+  missing_token: '密钥缺失'
+  not_authorized: '身份认证缺失'

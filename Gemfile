@@ -25,11 +25,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 # Use mongodb as databse
 gem 'mongoid', '~> 6.1.0'
 # Use Graphql instead
 gem 'graphql'
+# Use Json Web Token authentication method
+gem 'jwt'
+# Make using the service or command easier
+gem 'simple_command'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
