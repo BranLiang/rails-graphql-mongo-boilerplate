@@ -23,6 +23,14 @@ module RailsMongodbGraphql
     config.i18n.default_locale = :'zh-CN'
     config.i18n.fallbacks = { 'zh-CN': 'en' }
     config.eager_load_paths << "#{Rails.root}/lib"
+    # Disable generation of helpers, javascripts, css, and view specs
+    config.generators do |generate|
+      generate.stylesheets false
+      generate.javascripts false
+      generate.helper false
+      generate.assets false
+      generate.view_specs false
+    end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
