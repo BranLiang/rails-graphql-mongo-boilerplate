@@ -1,4 +1,4 @@
-# Rails Mongoid Graphql
+# WIP: Rails Mongoid Graphql
 
 ## About
 Base template for Ruby on Rails projects. Built to minimize the time spent writing boilerplate code and performing repetitive setup tasks. Target for users who love using Graphql and Mongodb.
@@ -30,7 +30,7 @@ var myJWT = payload + "." + signature;
 - [x] Auto Code Smell check
 - [x] Faster Ruby with fasterer
 - [ ] Authorization
-- [ ] JWT Authentication
+- [x] JWT Authentication
 - [ ] Test suits / Templates
 - [ ] Custom Graphql Generator
 - [x] Setup mongoid
