@@ -1,4 +1,8 @@
 RailsMongodbGraphqlSchema = GraphQL::Schema.define do
-  mutation(Types::MutationType)
+  resolve_type ->(obj, _ctx) {
+    "Types::#{obj.class}Type".constantize
+  }
+
+  # mutation(Types::MutationType)
   query(Types::QueryType)
 end
