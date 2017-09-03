@@ -20,3 +20,6 @@ Style/Lambda:
 
 Bundler/OrderedGems:
   Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
