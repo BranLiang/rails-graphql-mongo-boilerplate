@@ -39,8 +39,12 @@ var myJWT = payload + "." + signature;
 - [ ] Query samples
 - [ ] Mutation samples
 - [ ] Subscription samples
+- [ ] Curser based pagination
+- [ ] Generic filtering
+- [ ] Generic sorting
 - [ ] I18n integration
 - [ ] Gzip
 - [ ] Server side rendering
 - [ ] React Integration
 - [ ] Admin Panel Integration
+- [ ] Integgrate Apollo Optics for Graphql monitoring
