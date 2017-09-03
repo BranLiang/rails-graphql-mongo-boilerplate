@@ -1,5 +1,5 @@
-Types::ModelGenericType = GraphQL::InterfaceType.define do
-  name 'ModelGeneric'
+Interfaces::ModelGenericInterface = GraphQL::InterfaceType.define do
+  name 'ModelGenericInterface'
   description 'Generic fields for model, including id, created_at, updated_at'
 
   field :id, !types.ID

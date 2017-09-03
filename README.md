@@ -42,6 +42,7 @@ var myJWT = payload + "." + signature;
 - [ ] Curser based pagination
 - [ ] Generic filtering
 - [ ] Generic sorting
+- [x] Graphql Functions
 - [ ] I18n integration
 - [ ] Gzip
 - [ ] Server side rendering

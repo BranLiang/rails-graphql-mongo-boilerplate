@@ -1,6 +1,6 @@
 Types::UserType = GraphQL::ObjectType.define do
   name 'User'
 
-  interfaces [Types::ModelGenericType]
+  interfaces [Interfaces::ModelGenericInterface]
   field :name, !types.String
 end
