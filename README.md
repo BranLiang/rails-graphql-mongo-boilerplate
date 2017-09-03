@@ -49,3 +49,4 @@ var myJWT = payload + "." + signature;
 - [ ] React Integration
 - [ ] Admin Panel Integration
 - [ ] Integgrate Apollo Optics for Graphql monitoring
+- [ ] Background job

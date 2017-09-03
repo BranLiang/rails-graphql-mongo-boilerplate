@@ -6,6 +6,7 @@ class User
   attr_accessor :password, :password_confirmation
 
   embeds_one :profile, autobuild: true
+  has_many :posts
 
   field :name, type: String
   field :login, type: String
