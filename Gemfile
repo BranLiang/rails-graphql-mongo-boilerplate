@@ -34,6 +34,10 @@ gem 'graphql'
 gem 'jwt'
 # Make using the service or command easier
 gem 'simple_command'
+# Client
+gem 'react-rails'
+# JS compiler
+gem 'webpacker', '~> 3.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

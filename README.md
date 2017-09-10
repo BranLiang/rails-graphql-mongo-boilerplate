@@ -45,7 +45,7 @@ var myJWT = payload + "." + signature;
 - [x] Graphql Functions
 - [ ] I18n integration
 - [ ] Gzip
-- [ ] Server side rendering
+- [ ] Server side rendering [airbnb / hypernova]
 - [ ] React Integration
 - [ ] Admin Panel Integration
 - [ ] Integgrate Apollo Optics for Graphql monitoring
